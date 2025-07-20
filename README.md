@@ -8,15 +8,18 @@ The candidate has answered both questions in Section 1 and Scenario 1 in Section
 There are 5 key sub-directories, each following the structure specified in summary above:
 
 * code: This subdirectory documents the code for each project along with a seperate subdirectory "utils/" for downloading raw data using API.
-NOTE: Some datasets could not be found on the website and had to be downloaded manually from different sources.
-NOTE 2: Since datasets are too big to be sent over as a Zipped file, a snippet of all raw data-sets used has been provided for the user to find and download.
+
+  * NOTE: Some datasets could not be found on the website and had to be downloaded manually from different sources.
+
+  * NOTE 2: Since datasets are too big to be sent over as a Zipped file, a snippet of all raw data-sets used has been provided for the user to find and download.
 
 * data: This subdirectory should be used to store raw data for each question seperately.
+
 NOTE: 5 year-forecasts for Section 2, Scenario 1 have been placed in "/2_1/forecast/" subdirectory.
 
 * images: Any images produced during analysis or model run are stored in this subdirectory.
 
-* model: The saved model for Scenario 1 - Question 2 is saved here. Other scenrios did not need a saved model.
+* model: The saved model for Scenario 1 - Question 2 is saved here. Other scenarios did not need a saved model.
 
 * presentations: Presentations for each scenario labelled with the same naming convention as above.
 
