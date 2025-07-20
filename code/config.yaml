@@ -1,0 +1,29 @@
+# Config file to set path for each project
+## All data has been downloaded into corresponding folders in data/ subdirectory, but cannot be sent over
+## Some datasets are not available on the website and have been manually downloaded
+
+# Section 1 - Question 1
+s1_q1:
+  data_loc: data\1_1\
+  data:
+    DATASET_ID: [d_ee7e46d3c57f7865790704632b0aef71, d_8b84c4ee58e3cfc0ece0d773c8ca6abc]
+    name: [CEASalespersonsPropertyTransactionRecordsresidential.csv, ResaleflatpricesbasedonregistrationdatefromJan2017onwards.csv]
+  image: images\1_1\
+  model: model\1_1\
+
+# Section 1 - Question 2
+s1_q2:
+  data_loc: data\1_2\
+  data:
+    DATASET_ID: [d_22094bf608253d36c0c63b52d852dd6e, d_69b3380ad7e51aff3a7dcc84eba52b8a]
+    name: [MotorVehicleQuotaQuotaPremiumAndPrevailingQuotaPremiumMonthly.csv, COEBiddingResultsPrices.csv]
+  image: images\1_2\
+  model: model\1_2\
+
+# Section 2 - Question 1 - Some datasets have been manually downloaded 
+s2_q1:
+  data_loc: data\2_1\
+  data:
+    DATASET_ID: [d_e39eeaeadb571c0d0725ef1eec48d166, d_696c994c50745b079b3684f0e90ffc53]
+    name: [BirthsAndFertilityRatesAnnual.csv, ListingofCenters.csv]
+  image: images\2_1\
